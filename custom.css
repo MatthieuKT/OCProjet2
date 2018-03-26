@@ -1,0 +1,38 @@
+/* body {
+  background-color: black;
+  color: green;
+} */
+@font-face {
+    font-family: 'Roboto';
+    src: url('webagency_images/webagency_images/fonts/Roboto-Regular.ttf');
+}
+
+header {
+  font-family: 'Roboto';
+  padding-left: 10%;
+  padding-right: 10%;;
+}
+/*ul de la navbar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*?*/
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px, 16px;
+  text-decoration: none;
+  color: #888C8F;
+}
+a {
+  padding:29px 12px 29px 12px;
+}
+.active {
+  border-top: 2px #6AB9BF solid;
+  padding:27px 8px 29px 8px;
+}
