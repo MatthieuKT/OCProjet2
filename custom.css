@@ -1,16 +1,23 @@
-/* body {
-  background-color: black;
-  color: green;
-} */
+body {
+  /* background-color: black;
+  color: green; */
+  height: 2000px;
+}
 @font-face {
     font-family: 'Roboto';
     src: url('webagency_images/webagency_images/fonts/Roboto-Regular.ttf');
 }
 
 header {
+  background-color: white;
   font-family: 'Roboto';
   padding-left: 10%;
-  padding-right: 10%;;
+  padding-right: 10%;
+  padding-bottom: 21px;
+  /*sticky header*/
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 /*ul de la navbar*/
 ul {
