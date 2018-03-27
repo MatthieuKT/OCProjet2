@@ -1,0 +1,44 @@
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ul.topnav li {
+  float: right;
+}
+ul.topnav li a {
+  display: block;
+  color: #888C8F;
+  text-align: center;
+  text-decoration:none;
+  padding:29px 12px 29px 12px;
+}
+/* Gere le survol des liens du navbar*/
+ul.topnav li a:hover:not(.active) {
+  color: black;
+}
+/*Style du lien actif*/
+ul.topnav li a.active {
+  border-top: 2px #6AB9BF solid;
+  padding:27px 8px 29px 8px;
+  color: black
+}
+
+
+@media screen and (max-width: 600px){
+  header {
+    position: fixed;
+  }
+  #logo {
+    width: 100%;
+  }
+  ul.topnav li.left,
+  ul.topnav li {
+    float: none;
+  }
+  ul.topnav li a,
+  ul.topnav li a.active {
+    padding: 14px 16px;
+  }
+}

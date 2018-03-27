@@ -11,13 +11,15 @@ body {
   font-family: 'Roboto';
   color: #404040;
   height: 2000px; /*a enlever*/
+  margin: 0;
 }
 
 header {
   background-color: white;
   padding-left: 10%;
   padding-right: 10%;
-  padding-bottom: 15px;
+  padding-bottom: 6px;
+
   /*sticky header*/
   position: -webkit-sticky; /* Safari */
   position: sticky;
@@ -26,32 +28,6 @@ header {
 #logo {
   margin-top: 10px;
 }
-/*ul de la navbar*/
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden; /*?*/
-}
-li {
-  float: left;
-}
-li a {
-  display: block;
-  text-align: center;
-  padding: 14px, 16px;
-  text-decoration: none;
-  color: #888C8F;
-}
-a {
-  padding:29px 12px 29px 12px;
-}
-.active {
-  border-top: 2px #6AB9BF solid;
-  padding:27px 8px 29px 8px;
-}
-
-
 
 h1 {
   font-family: 'Roboto-Medium';
