@@ -6,6 +6,15 @@
     font-family: 'Roboto-Medium';
     src: url('webagency_images/webagency_images/fonts/Roboto-Medium.ttf');
 }
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('webagency_images/webagency_images/fonts/Roboto-Bold.ttf');
+}
+
+
+h1, h2 {
+  font-family: 'Roboto-Bold';
+}
 
 
 
@@ -17,7 +26,7 @@ body {
 }
 
 
-#one {
+.textContent {
   width: 100%;
   height: 200px;
   padding-top: 70px; /*changer en pourcentages*/
@@ -54,4 +63,31 @@ body {
     height: 100%;
     border: 1px green dotted;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+.pics {
+  width: 200px;
+  height: 40px;
+}
+.pics img {
+  width: 100%;
+}
+.wrap {
+  height: 133px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 33px;
+}
+#portfolio {
+
 }
