@@ -7,6 +7,8 @@
     src: url('webagency_images/webagency_images/fonts/Roboto-Medium.ttf');
 }
 
+
+
 body {
   font-family: 'Roboto';
   color: #404040;
@@ -14,13 +16,7 @@ body {
   margin: 0;
 }
 
-#logo {
-  margin-top: 10px;
-}
 
-h1 {
-  font-family: 'Roboto-Medium';
-}
 #one {
   width: 100%;
   height: 200px;

@@ -19,7 +19,7 @@ ul.topnav li {
 }
 ul.topnav li a {
   display: block;
-  color: #888C8F;
+  color: #888C8F; /*gris*/
   text-align: center;
   text-decoration:none;
   padding:29px 12px 29px 12px;
@@ -30,7 +30,7 @@ ul.topnav li a:hover:not(.active) {
 }
 /*Style du lien actif*/
 ul.topnav li a.active {
-  border-top: 2px #6AB9BF solid;
+  border-top: 2px #6AB9BF solid;  /*bleu clair*/
   padding:27px 8px 29px 8px;
   color: black
 }

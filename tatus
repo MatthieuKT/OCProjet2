@@ -1,0 +1,35 @@
+[33mcommit 6847c867b7151cd57b35b5044a02af921de43a64[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: kwant <kwant.matthieu@gmail.com>
+Date:   Tue Mar 27 18:43:43 2018 +0200
+
+    correctif sur les media queries du topnav
+
+[33mcommit b75c9ccb24ccb59b4369248f890af8bf9ce73a4e[m
+Author: kwant <kwant.matthieu@gmail.com>
+Date:   Tue Mar 27 16:58:45 2018 +0200
+
+    Navbar désormais responsive
+
+[33mcommit 116ae0f3fcf40712178b278e2486f7c420695b03[m
+Author: kwant <kwant.matthieu@gmail.com>
+Date:   Tue Mar 27 00:32:21 2018 +0200
+
+    ajout de la section Services
+
+[33mcommit e734d044319703b0ab39d5cc1a515c976aa9e2b8[m
+Author: kwant <kwant.matthieu@gmail.com>
+Date:   Mon Mar 26 23:39:34 2018 +0200
+
+    le header est maintenant 'sticky'
+
+[33mcommit 760f5b84b90c5069721dc675370bad387be97449[m
+Author: kwant <kwant.matthieu@gmail.com>
+Date:   Mon Mar 26 23:19:38 2018 +0200
+
+    initialisation du projet et travail sur la navbar
+
+[33mcommit 27dce153482a4def6cfe24e746d635b84c21c73a[m
+Author: MatthieuKT <33154618+MatthieuKT@users.noreply.github.com>
+Date:   Mon Mar 26 22:04:46 2018 +0200
+
+    Initial commit

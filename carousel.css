@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('webagency_images/webagency_images/fonts/Roboto-Bold.ttf');
+}
+/*Ecrans de plus de 1024px*/
+@media screen and (min-width: 1024px){
+  #carousel {
+    background: url("webagency_images/webagency_images/images/slider/bg1.jpg") no-repeat center;
+    height: 555px;
+  }
+  #intro {
+    width: 40%;
+  }
+}
+/*Ecrans de moins de 1024px*/
+@media screen and (max-width: 1024px){
+  #carousel {
+    background-color: grey;
+  }
+}
+
+
+#carousel {
+  width: 100%;
+  font-family: 'Roboto-Bold';
+}
+#intro {
+  height: 100%;
+  padding: 10%;
+  color: white;
+}
+#intro span {
+  color: #5CADD3;  /*bleu clair*/
+}
+#button {
+  border-radius: 4px;
+  background-color: #5cadd3;
+  color: white;
+  padding: 15px 12px 15px 12px;
+  font-size: 17px;
+  box-shadow: 4px;
+  text-decoration: none;
+}
