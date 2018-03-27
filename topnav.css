@@ -1,3 +1,13 @@
+header {
+  background-color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 6px;
+}
+
+
+
+
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -24,11 +34,21 @@ ul.topnav li a.active {
   padding:27px 8px 29px 8px;
   color: black
 }
+#logo {
+  margin-top: 10px;
+}
 
-
+@media all and (min-width: 600px) {
+  /*sticky header*/
+  header {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+}
 @media screen and (max-width: 600px){
   header {
-    position: fixed;
+    position: relative;
   }
   #logo {
     width: 100%;
