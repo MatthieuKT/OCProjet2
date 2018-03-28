@@ -127,28 +127,25 @@ body {
 
 
 /* Section Contact */
-#contact {
-  width: 100%;
+iframe {
+  position: relative;
+  	margin: auto;
 
-  background-color: red;
 }
 #form {
-position: relative;
-top: 15%;
-left: 60%;
-
+  position: relative;
+  bottom: 500px;;
+  left: 60%;
   width: 30%;
   background-color: white;
-
   padding: 25px;
 
-
 }
-#form input {
+#form input, textarea {
   width: 100%;
-      display: inline-block;
-          padding: 12px 20px;
-              margin: 8px 0;
-              border-radius: 4px;
-box-sizing: border-box;
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
