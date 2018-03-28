@@ -29,7 +29,6 @@ h3 {
 body {
   font-family: 'Roboto';
   color: #404040;
-  height: 2000px; /*a enlever*/
   margin: 0;
 }
 
@@ -44,6 +43,8 @@ body {
   padding-top: 70px; /*changer en pourcentages*/
   text-align: center;
 }
+
+/* Section Services */
 #two{
   display: flex;
   width: 100%;
@@ -52,31 +53,6 @@ body {
   width: 50%;
   height: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #list {
@@ -133,4 +109,46 @@ body {
   display: flex;
   justify-content: space-around;
   margin-top: 33px;
+}
+
+/* Section Portfolio */
+#portfolio {
+  background-color: #F5F5F5;
+  padding-bottom: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Section Contact */
+#contact {
+  width: 100%;
+
+  background-color: red;
+}
+#form {
+position: relative;
+top: 15%;
+left: 60%;
+
+  width: 30%;
+  background-color: white;
+
+  padding: 25px;
+
+
+}
+#form input {
+  width: 100%;
+      display: inline-block;
+          padding: 12px 20px;
+              margin: 8px 0;
+              border-radius: 4px;
+box-sizing: border-box;
 }
