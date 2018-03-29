@@ -89,7 +89,6 @@ h3 {
 }
 
 /* #portfolio section */
-
 #portfolio {
   background-color: #F5F5F5;
 }
@@ -130,26 +129,41 @@ h3 {
 
 
 
-/* Section Contact */
+/* #contact section */
 iframe {
-  position: relative;
-  	margin: auto;
-
+  width: 100%;
+  height: 625px;
+  position: absolute;
+  right: 0;
+  top: : 0;
 }
-#form {
-  position: relative;
-  bottom: 500px;;
-  left: 60%;
-  width: 30%;
+#formBackground {
+  width: 350px;
+  height: 525px;
   background-color: white;
-  padding: 25px;
-
+  position: absolute;
+  right: 0;
+  top: : 0;
+  margin-right: 10%;
+  margin-top: 5%;
+  z-index: 1;
+  opacity: 0.8;
 }
-#form input, textarea {
+#formContact {
+  width: 300px;
+  padding: 25px;
+  position: absolute;
+  right: 0;
+  top: : 0;
+  margin-right: 10%;
+  margin-top: 5%;
+  z-index: 2;
+}
+#formContact input, textarea {
   width: 100%;
   display: inline-block;
-  padding: 12px 20px;
+  padding: 5px;
   margin: 8px 0;
-  border-radius: 4px;
+
   box-sizing: border-box;
 }

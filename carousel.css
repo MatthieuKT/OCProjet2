@@ -15,7 +15,6 @@
   }
 }
 
-
 #carousel {
   width: 100%;
   font-family: 'Roboto-Bold';
@@ -28,7 +27,7 @@
 #intro span {
   color: #5CADD3;  /*bleu clair*/
 }
-#button {
+button {
   border-radius: 4px;
   background-color: #5cadd3;
   color: white;
