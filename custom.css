@@ -11,7 +11,11 @@
     src: url('webagency_images/webagency_images/fonts/Roboto-Bold.ttf');
 }
 
-
+body {
+  font-family: 'Roboto';
+  color: #404040;
+  margin: 0;
+}
 h1 {
   font-family: 'Roboto-Bold';
 }
@@ -23,20 +27,6 @@ h2 {
 h3 {
   margin: 0;
 }
-
-
-
-body {
-  font-family: 'Roboto';
-  color: #404040;
-  margin: 0;
-}
-
-
-
-
-
-
 .textContent {
   width: 100%;
   height: 200px;
@@ -53,18 +43,16 @@ body {
   width: 50%;
   height: 100%;
 }
-
-
 #list {
   width: 50%;
   height: 100%;
   padding-right: 25px;
-
 }
 .listElts {
   width: 100%;
   margin-top: 12px;
   margin-bottom: 12px;
+  display: flex;
 }
 .fa-circle {
   font-size: 1em;
@@ -78,11 +66,7 @@ body {
 #list p {
   margin-top: 7px;
 }
-@media screen and (max-width: 1024px){
-  .listElts {
-    display: flex;
-  }
-}
+/* Ecrans jusqu'a 1024px */
 @media screen and (max-width: 1024px){
   #feature {
     display: none;
@@ -91,7 +75,7 @@ body {
     width: 100%;
   }
 }
-
+/* Petits ecrans */
 @media screen and (max-width: 600px){
   #list {
     text-align: center;
@@ -102,31 +86,41 @@ body {
   .icons {
     width: 100%;
   }
-  .pics {
-    display: block;
-  }
 }
 
+/* #portfolio section */
+
+#portfolio {
+  background-color: #F5F5F5;
+}
+.wrap {
+  height: auto;
+}
+/* div contenannt les pics*/
 .pics {
-  width: 200px;
-  height: 40px;
+  width: 225px;
+  height: 225px;;
 }
 .pics img {
   width: 100%;
 }
-.wrap {
-  height: 133px;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 33px;
-}
 
-/* Section Portfolio */
-#portfolio {
-  background-color: #F5F5F5;
-  padding-bottom: 35px;
+/* petites resolutions */
+@media screen and (max-width: 600px){
+  /* Centre les blocs et les aligne dans une seule colonne*/
+  .pics {
+    display: block;
+    margin: auto;
+  }
 }
-
+/* ecrans de plus de 1024px */
+@media screen and (min-width: 600px){
+  /* les blocs sont disposés en colonnes et s'étalent sur la largeur */
+  .wrap {
+    display: flex;
+    justify-content: space-around;
+  }
+}
 
 
 
