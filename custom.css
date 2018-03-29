@@ -65,7 +65,6 @@ body {
   width: 100%;
   margin-top: 12px;
   margin-bottom: 12px;
-  display: flex;
 }
 .fa-circle {
   font-size: 1em;
@@ -78,6 +77,11 @@ body {
 }
 #list p {
   margin-top: 7px;
+}
+@media screen and (max-width: 1024px){
+  .listElts {
+    display: flex;
+  }
 }
 @media screen and (max-width: 1024px){
   #feature {
@@ -94,6 +98,12 @@ body {
   }
   .listElts {
     flex-direction: column;
+  }
+  .icons {
+    width: 100%;
+  }
+  .pics {
+    display: block;
   }
 }
 
