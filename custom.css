@@ -112,7 +112,7 @@ h3 {
     margin: auto;
   }
 }
-/* ecrans de plus de 1024px */
+/* ecrans de plus de 600px */
 @media screen and (min-width: 600px){
   /* les blocs sont disposés en colonnes et s'étalent sur la largeur */
   .wrap {
@@ -120,14 +120,6 @@ h3 {
     justify-content: space-around;
   }
 }
-
-
-
-
-
-
-
-
 
 /* #contact section */
 iframe {
@@ -149,21 +141,33 @@ iframe {
   z-index: 1;
   opacity: 0.8;
 }
-#formContact {
-  width: 300px;
-  padding: 25px;
-  position: absolute;
-  right: 0;
-  top: : 0;
-  margin-right: 10%;
-  margin-top: 5%;
-  z-index: 2;
-}
 #formContact input, textarea {
   width: 100%;
   display: inline-block;
   padding: 5px;
-  margin: 8px 0;
-
+  margin: 8px;
   box-sizing: border-box;
+}
+/* ecrans de moins de 1024px */
+@media screen and (max-width: 1024px){
+  iframe {
+    display: none;
+  }
+  #formContact {
+    margin: auto;
+    width: 70%;
+  }
+}
+/* ecrans de plus de 1024px */
+@media screen and (min-width: 1024px){
+  #formContact {
+    width: 300px;
+    padding: 25px;
+    position: absolute;
+    right: 0;
+    top: : 0;
+    margin-right: 10%;
+    margin-top: 5%;
+    z-index: 2;
+  }
 }

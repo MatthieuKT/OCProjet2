@@ -27,13 +27,13 @@
 #intro span {
   color: #5CADD3;  /*bleu clair*/
 }
-button {
+button, #button{
   border-radius: 4px;
   background-color: #5cadd3;
   color: white;
-  padding: 11px 12px 11px 12px;
-  font-size: 17px;
-  box-shadow: 4px;
+  padding: 7px;
+  font-size: 15px;
   text-decoration: none;
+  margin-left: 6px;
   border-bottom: 3px solid rgb(33,112,131);
 }
