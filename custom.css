@@ -23,7 +23,17 @@ h2 {
   font-family: 'Roboto-Medium';
   font-size: 2em;
   color: black;
+  margin-bottom: 0px;
 }
+/* les lignes décoratives en dessous des titres */
+.decoration {
+  color: #888C8F;
+  margin-top: 0px;
+}
+.fa-circle {
+  color: #3491B2;
+}
+
 h3 {
   margin: 0;
 }
@@ -53,9 +63,6 @@ h3 {
   margin-top: 12px;
   margin-bottom: 12px;
   display: flex;
-}
-.fa-circle {
-  font-size: 1em;
 }
 .icons {
   width: 80px;
