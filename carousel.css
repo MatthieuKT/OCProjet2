@@ -14,7 +14,6 @@
     background-color: grey;
   }
 }
-
 #carousel {
   width: 100%;
   font-family: 'Roboto-Bold';
@@ -36,4 +35,18 @@ button, #button{
   text-decoration: none;
   margin-left: 6px;
   border-bottom: 3px solid rgb(33,112,131);
+}
+.fa-chevron-left, .fa-chevron-right {
+  font-size: 2em;
+  color: white;
+  position: relative;
+  top: 45%;
+}
+.fa-chevron-left {
+  position: relative;
+  top: 45%;
+  left: 1%;
+}
+.fa-chevron-right {
+  right: -95%;
 }
