@@ -4,7 +4,21 @@
     <meta charset="utf-8">
     <!--force un bon niveau de zoom aux navigateurs mobiles-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Agency</title>
+
+    <title>WebAgency</title>
+    <meta name="description" content="Vous avez un projet web? La WEBAGENCY vous aide à le réaliser !" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <!-- Twitter Summary card images must be at least 200x200px -->
+    <meta name="twitter:image" content="http://matthieukt.com/OCProjet2/">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="WebAgency"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://matthieukt.com/OCProjet2/"/>
+    <meta property="og:image" content="webagency_images\webagency_images\images\main-feature.png"/>
+    <meta property="og:description" content="WEBAGENCY: L'agence web de tous vos projets! "/>
+
     <!--Les fichiers CSS-->
     <link rel="stylesheet" type="text/css" href="topnav.css"/>
     <link rel="stylesheet" type="text/css" href="carousel.css"/>
@@ -30,10 +44,12 @@
 
     <!--Caroussel-->
     <div id="carousel">
+      <i class="fas fa-chevron-left"></i>
+      <i class="fas fa-chevron-right"></i>
       <div id="intro">
         <h1><span>WEBAGENCY</span> : L'AGENCE DE TOUS VOS PROJETS !</h1>
         <p>Vous avez un projet web? La WEBAGENCY vous aide à le réaliser !</p> <br />
-        <a href="#" id="button">Plus d'infos</a>
+        <a href="#services" id="button">Plus d'infos</a>
       </div>
     </div>
 
@@ -42,6 +58,9 @@
     <section id="services">
       <div class="textContent">
         <h2>NOS SERVICES</h2>
+        <p class="decoration">
+          ________<i class="fas fa-circle" data-fa-transform="down-6"></i>________
+        </p>
         <p>Fuerit toto in consulatu sine provincia, cui fuerit, antequam designatus est, decreta provincia. <br>
           Nam et non sortiri absurdum est, et, quod sortitus sis, non habere.</p>
       </div>
@@ -64,7 +83,6 @@
             </div>
           </div>
 
-
           <div class="listElts">
             <div class="icons">
               <i class="fas fa-chart-pie"></i>
@@ -73,8 +91,7 @@
               <h3>UX Design</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean arcu sem, dictum eu dapibus ac, tincidunt eu quam.</p>
             </div>
-        </div>
-
+          </div>
 
           <div class="listElts">
             <div class="icons">
@@ -85,18 +102,28 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean arcu sem, dictum eu dapibus ac, tincidunt eu quam. </p>
             </div>
           </div>
-
         </div>
       </div>
     </section>
 
-
     <section id="portfolio">
       <div class="textContent">
         <h2>NOS PROJETS</h2>
+        <p class="decoration">
+          ________<i class="fas fa-circle" data-fa-transform="down-6"></i>________
+        </p>
         <p>Fuerit toto in consulatu sine provincia, cui fuerit, antequam designatus est, decreta provincia. <br>
           Nam et non sortiri absurdum est, et, quod sortitus sis, non habere.</p>
       </div>
+
+      <nav>
+        <ul>
+           <li><a href="#" class="active">All Works</a></li>
+           <li><a href="#">Creative</a></li>
+           <li><a href="#">Corporate</a></li>
+           <li><a href="#">Portfolio</a></li>
+        </ul>
+      </nav>
 
       <div class="wrap">
         <div class="pics">
@@ -130,11 +157,9 @@
       
     </section>
 
-
-
-
     <section id="contact">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6424.635917288951!2d2.3498481645367755!3d48.87102355781549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145cb52f15%3A0x4d3ec41b2cadff0!2s25+Rue+d'Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1512487012102" style="border:0" allowfullscreen="" frameborder="0"></iframe>
+      <div id="filtre"></div>
       <div id="formContact">
         <h2>Contact info</h2>
         <address>
@@ -147,7 +172,7 @@
           <input type="email" name="mail" placeholder="mail"/>
           <input type="text" name="subject" placeholder="subject"/>
           <textarea rows="7" placeholder="Message"></textarea>
-          <button type="submit">Envoyer</button>
+          <button type="submit">Send message</button>
         </form>
       </div>
       <div id="formBackground"></div>

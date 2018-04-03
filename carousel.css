@@ -14,7 +14,6 @@
     background-color: grey;
   }
 }
-
 #carousel {
   width: 100%;
   font-family: 'Roboto-Bold';
@@ -27,13 +26,27 @@
 #intro span {
   color: #5CADD3;  /*bleu clair*/
 }
-button {
+button, #button{
   border-radius: 4px;
   background-color: #5cadd3;
   color: white;
-  padding: 11px 12px 11px 12px;
-  font-size: 17px;
-  box-shadow: 4px;
+  padding: 7px;
+  font-size: 15px;
   text-decoration: none;
+  margin-left: 6px;
   border-bottom: 3px solid rgb(33,112,131);
+}
+.fa-chevron-left, .fa-chevron-right {
+  font-size: 2em;
+  color: white;
+  position: relative;
+  top: 45%;
+}
+.fa-chevron-left {
+  position: relative;
+  top: 45%;
+  left: 1%;
+}
+.fa-chevron-right {
+  right: -95%;
 }
