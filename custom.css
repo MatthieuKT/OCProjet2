@@ -150,7 +150,7 @@ width : 225px;
 height : 233px;
 
 transition-property: transform;
-transition-duration: 1s;
+transition-duration: 0.5s;
 transition-timing-function: ease; /* Transition de type ease */
 }
 .emptybox:hover {
