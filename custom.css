@@ -87,8 +87,13 @@ text-align : center;
 .listElts {
 flex-direction : column;
 }
+.icons {
+  width: 100%;
+  padding-left: 10px;
+  padding-bottom: 15spx;
+}
 .circle {
-display : none;
+display: none;
 }
 }
 #portfolio {

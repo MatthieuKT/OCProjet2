@@ -13,7 +13,11 @@
   #carousel {
     background-color: grey;
   }
+  #chevron-left, #chevron-right {
+    display: none;
+  }
 }
+
 #carousel {
   overflow: hidden;
   width: 100%;
@@ -23,6 +27,8 @@
   height: 100%;
   padding: 10%;
   color: white;
+  position: relative;
+  bottom: 25%;
 }
 #intro span {
   color: #5CADD3;  /*bleu clair*/
@@ -37,25 +43,22 @@ button, #button{
   margin-left: 6px;
   border-bottom: 3px solid rgb(33,112,131);
 }
-#chevron-left {
+#chevron-left, #chevron-right {
   width: 75px;
   height: 75px;
   position: relative;
-  top: 45%;
-  left: -3%;
   border-radius: 50%;
   background-color: black;
   opacity: 0.5;
 }
-#chevron-right {
-  width: 75px;
-  height: 75px;
+#chevron-left {
   position: relative;
+  top: 45%;
+  left: -3%;
+}
+#chevron-right {
   top: 32%;
   right: -97%;
-  border-radius: 50%;
-  background-color: black;
-  opacity: 0.5;
 }
 .fa-chevron-left, .fa-chevron-right {
   font-size: 2em;
