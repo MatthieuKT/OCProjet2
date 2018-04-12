@@ -96,41 +96,65 @@ flex-direction : column;
 display: none;
 }
 }
+
 #portfolio {
-background-color : #F5F5F5;
+  background-color : #F5F5F5;
 }
-nav {
-width : 35%;
-margin : auto;
-display : flex;
-margin-bottom : 5%;
+#carousel {
+max-width: 1300px;
+margin-left: auto;
+margin-right: auto;
 }
-nav ul {
-list-style-type : none;
-margin : 0;
-padding : 0;
-overflow : hidden;
-background-color : #dddddd;
+#portfolio, #services, #contact{
+max-width: 1300px;
+margin-left: auto;
+margin-right: auto;
 }
-nav li {
-float : left;
+#nav2 {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
 }
-nav a {
-display : block;
-padding : 8px;
-background-color : #dddddd;
+
+#nav2 li {
+    display: inline-block;
+    background-color: #E2E2E2;
+    margin: 0;
+
 }
-nav li a {
-display : block;
-color : #404040;
-text-align : center;
-padding : 14px 16px;
-text-decoration : none;
+#nav2 ul {
+  margin: 0px;
+  padding: 0px;
+  background-color: #E2E2E2;
 }
-nav .active {
-color : white;
-background-color : #5CADD3;
-border-bottom : 2px solid #217083;
+
+#nav2 li a {
+    margin: 0px;
+    display: block;
+    color: #6E7276;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+#nav2 li a:hover:not(.active) {
+  color: black;
+}
+
+#nav2 li a.active {
+  background-color: #5CADD3;
+  color: white;
+  border-bottom: 3px #458BAD solid;
+}
+.arrow {
+    width: 0px;
+    border-top: 10px solid #458BAD;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: relative;
+    left: 9%;
 }
 .wrap {
 height : auto;

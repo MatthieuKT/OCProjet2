@@ -33,6 +33,7 @@ ul.topnav li a.active {
 }
 #logo {
   margin-top: 10px;
+  float: left;
 }
 
 @media all and (min-width: 600px) {
